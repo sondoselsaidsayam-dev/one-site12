@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+    </script>
+</head>
+<body class="font-serif bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+    <!-- Header -->
+    <header class="flex items-center justify-between px-10 py-6">
+        <div class="text-2xl font-bold text-gray-800 dark:text-white"><span class="text-blue-600">A</span>ppex</div>
+        <nav class="hidden md:flex gap-6 text-sm text-gray-600 dark:text-gray-300">
+            <a href="#" class="text-blue-600 border-b-2 border-blue-600 pb-1 dark:text-blue-400 dark:border-blue-400">Home</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="flex items-center gap-4 text-sm">
+            <!-- Dark Mode Toggle -->
+            <label class="inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="darkToggle" class="sr-only peer">
+                <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600 ">ON</div>
+            </label>
+            <a href="#contact" class="text-gray-600 dark:text-gray-300">Login</a>
+            <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="flex flex-col-reverse md:flex-row items-center justify-between px-10 md:px-20 py-16">
+        <!-- Left Content -->
+        <div class="max-w-xl space-y-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">Manage Your Activity<br>With <span class="text-blue-600">Appex</span></h1>
+            <p class="text-gray-600 dark:text-gray-300">
+                Maecenas tempus, tellus eget condimentum rhoncus quam semper libero sit amet adipiscing sem neque sed ipsum nam quam nunc blandit vel luctus pulvinar.
+            </p>
+            <div class="flex gap-4">
+                <a href="#pricing" class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Get Started Today</a>
+                <a href="https://example.com/download" target="_blank" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-100 dark:text-gray-200 dark:border-gray-500 dark:hover:bg-gray-800 transition">Download App</a>
+            </div>
+        </div>
+        <!-- Right Image -->
+        <div class="mt-10 md:mt-0 md:w-1/2">
+            <img src="./hero-2-img.e00536899165fc0261f3.png" alt="Mobile UI" class="w-full max-w-sm mx-auto rounded-xl">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="bg-white dark:bg-gray-950 py-20 px-6 md:px-20">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <p class="text-sm text-gray-500 dark:text-gray-400 uppercase tracking-wide">Our Features</p>
+            <h2 class="text-3xl md:text-4xl font-semibold text-gray-800 dark:text-white mt-2">Smart Solutions For Busy People</h2>
+            <p class="text-gray-500 dark:text-gray-300 mt-4 max-w-xl mx-auto">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
+        </div>
+        <!-- Content -->
+        <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+            <!-- Left Side Images -->
+            <div class="flex justify-center md:justify-start gap-6 md:w-1/2">
+                <img src="./features-1.bc7b2e31dc2030c17a64.png" alt="App UI Dark" class="w-full md:w-64 rounded-xl">
+            </div>
+            <!-- Right Side Text -->
+            <div class="md:w-1/2 space-y-6">
+                <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Discover your destination</h3>
+                <p class="text-gray-600 dark:text-gray-300">On the other hand, we denounce with righteous indignation so blinded that they cannot.</p>
+                <!-- Bullet 1 -->
+                <div class="flex items-start gap-4">
+                    <span class="fa-stack fa-1x text-blue-600 p-3 rounded-full">
+                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                        <i class="fa-solid fa-flag fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <p class="text-gray-700 dark:text-gray-300">
+                        <span class="text-blue-600 font-semibold">The wise therefore always holds</span> in us matters to this principle a selection a rejects pleasures.
+                    </p>
+                </div>
+                <!-- Bullet 2 -->
+                <div class="flex items-start gap-4">
+                    <span class="fa-stack fa-1x text-blue-600 p-3 rounded-full">
+                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                        <i class="fa-solid fa-book fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <p class="text-gray-700 dark:text-gray-300">
+                        Sed perspiciatis omnis a <span class="text-blue-600 font-semibold">natus error accusantium</span> laudantium totam rem aperiam eaque ipsa quae illo inventore.
+                    </p>
+                </div>
+                <!-- Bullet 3 -->
+                <div class="flex items-start gap-4">
+                    <span class="fa-stack fa-1x text-blue-600 p-3 rounded-full">
+                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                        <i class="fa-solid fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <p class="text-gray-700 dark:text-gray-300">
+                        Et si quidem rerum facilis <span class="text-blue-600 font-semibold">es expedita</span> <span class="text-blue-600">distinctio am libero tempore cum</span> <span class="text-blue-600">soluta nobis est</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 px-4 max-w-7xl mx-auto text-center">
+        <h3 class="text-sm uppercase text-gray-500 dark:text-gray-400">Our Pricing</h3>
+        <h2 class="text-3xl font-bold mb-2">Pricing Plan</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-10">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
+        <!-- Toggle -->
+        <div class="inline-flex mb-12 border rounded-full overflow-hidden dark:border-gray-700" id="pricing-toggle">
+            <button class="px-6 py-2 bg-blue-600 text-white font-semibold active">Monthly</button>
+            <button class="px-6 py-2 text-gray-700 dark:text-gray-300">Yearly</button>
+        </div>
+        <!-- Cards Container -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Free Plan -->
+            <div class="border rounded-xl shadow-sm p-8 dark:bg-gray-800 dark:border-gray-700">
+                <h3 class="text-lg font-semibold mb-2">Free</h3>
+                <div class="text-blue-600 text-3xl font-bold mb-1 pricing-amount">$0.00</div>
+                <span class="text-base font-normal text-gray-500 dark:text-gray-400 pricing-period">/Month</span>
+                <ul class="mt-6 space-y-3 text-left">
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>3 Projects</li>
+                    <li><i class="fas fa-database text-blue-500 mr-2"></i>50GB Storage</li>
+                    <li><i class="fas fa-users text-blue-500 mr-2"></i>Unlimited Contacts</li>
+                    <li><i class="fas fa-globe text-blue-500 mr-2"></i>5 Domains</li>
+                    <li><i class="fas fa-headset text-blue-500 mr-2"></i>Free Support <span class="text-red-500 font-bold">24/7</span></li>
+                </ul>
+                <button class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition" onclick="alert('Free Plan selected!')">Choose Plan</button>
+            </div>
+            <!-- Standard Plan (Popular) -->
+            <div class="relative border-2 border-blue-600 rounded-xl shadow-md p-8 dark:bg-gray-800 dark:border-blue-500">
+                <div class="absolute -top-3 right-4 bg-pink-600 text-white text-xs px-2 py-1 rounded-full">Most Popular</div>
+                <h3 class="text-lg font-semibold mb-2">Standard</h3>
+                <div class="text-blue-600 text-3xl font-bold mb-1 pricing-amount">$29.00</div>
+                <span class="text-base font-normal text-gray-500 dark:text-gray-400 pricing-period">/Month</span>
+                <ul class="mt-6 space-y-3 text-left">
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>10 Projects</li>
+                    <li><i class="fas fa-database text-blue-500 mr-2"></i>1TB Storage</li>
+                    <li><i class="fas fa-users text-blue-500 mr-2"></i>Unlimited Contacts</li>
+                    <li><i class="fas fa-globe text-blue-500 mr-2"></i>12 Domains</li>
+                    <li><i class="fas fa-headset text-blue-500 mr-2"></i>Free Support <span class="text-red-500 font-bold">24/7</span></li>
+                </ul>
+                <button class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition" onclick="alert('Standard Plan selected!')">Choose Plan</button>
+            </div>
+            <!-- Enterprise Plan -->
+            <div class="border rounded-xl shadow-sm p-8 dark:bg-gray-800 dark:border-gray-700">
+                <h3 class="text-lg font-semibold mb-2">Enterprise</h3>
+                <div class="text-blue-600 text-3xl font-bold mb-1 pricing-amount">$49.00</div>
+                <span class="text-base font-normal text-gray-500 dark:text-gray-400 pricing-period">/Month</span>
+                <ul class="mt-6 space-y-3 text-left">
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>20 Projects</li>
+                    <li><i class="fas fa-database text-blue-500 mr-2"></i>2.5TB Storage</li>
+                    <li><i class="fas fa-users text-blue-500 mr-2"></i>Unlimited Contacts</li>
+                    <li><i class="fas fa-globe text-blue-500 mr-2"></i>18 Domains</li>
+                    <li><i class="fas fa-headset text-blue-500 mr-2"></i>Free Support</li>
+                </ul>
+                <button class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition" onclick="alert('Enterprise Plan selected!')">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="max-w-7xl mx-auto py-16 px-6">
+        <div class="text-center mb-10">
+            <h3 class="text-sm uppercase text-gray-500 dark:text-gray-400">Our <span class="font-bold">Contact Us</span></h3>
+            <h2 class="text-3xl font-bold">Get in Touch</h2>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+            <!-- Left Side: Contact Info -->
+            <div>
+                <div class="flex items-center mb-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Bot Icon" class="w-10 h-10 mr-3">
+                    <h3 class="text-2xl font-semibold">Say Hello!</h3>
+                </div>
+                <!-- Email -->
+                <div class="mb-6">
+                    <div class="flex items-center mb-1">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <span class="font-semibold">Email</span>
+                    </div>
+                    <p class="text-sm ml-6">wexy1@gmail.com</p>
+                    <p class="text-sm ml-6">wexy2@gmail.com</p>
+                </div>
+            </div>
+            <!-- Right Side: Form -->
+            <form id="contact-form">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <input type="text" placeholder="Your first name..." class="w-full px-4 py-2 border rounded dark:bg-gray-900 dark:border-gray-700 dark:text-white" required>
+                    <input type="text" placeholder="Last name..." class="w-full px-4 py-2 border rounded dark:bg-gray-900 dark:border-gray-700 dark:text-white" required>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <input type="email" placeholder="Your email..." class="w-full px-4 py-2 border rounded dark:bg-gray-900 dark:border-gray-700 dark:text-white" required>
+                    <input type="text" placeholder="Type phone number..." class="w-full px-4 py-2 border rounded dark:bg-gray-900 dark:border-gray-700 dark:text-white" required>
+                </div>
+                <div class="mb-4">
+                    <input type="text" placeholder="Type subject..." class="w-full px-4 py-2 border rounded dark:bg-gray-900 dark:border-gray-700 dark:text-white" required>
+                </div>
+                <div class="mb-6">
+                    <textarea rows="5" placeholder="Type messages..." class="w-full px-4 py-2 border rounded dark:bg-gray-900 dark:border-gray-700 dark:text-white" required></textarea>
+                </div>
+                <button type="submit" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-2 rounded shadow transition flex items-center">
+                    SEND MESSAGES <i class="fas fa-paper-plane ml-2"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-900 text-gray-300 dark:text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-10 text-sm">
+            <!-- Branding & Contact -->
+            <div>
+                <h2 class="text-white text-xl font-bold mb-3 flex items-center">
+                    <i class="fas fa-window-restore mr-2"></i> WEXY
+                </h2>
+                <p class="mb-1">WEXY@gmail.com</p>
+                <p class="mb-3">+2012-345-6789</p>
+                <h3 class="text-white font-semibold mb-2">Follow Us</h3>
+                <div class="flex space-x-3">
+                    <a href="https://www.facebook.com/" target="_blank" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/i/flow/login" target="_blank" class="text-gray-300 hover:text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="text-gray-300 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://account.live.com/tou/accrue?mkt=EN-US&uiflavor=web&client_id=1E00004162BA93&id=293577&ru=https://login.live.com/oauth20_authorize.srf%3fuaid%3d87b13a567e8f400e830a06611d04a8f0%26client_id%3d69228f9f-5df7-4678-a011-7bccef47fc5e%26opid%3d7D08EE79CD020808%26mkt%3dEN-US%26opidt%3d1766491121" target="_blank" class="text-gray-300 hover:text-white"><i class="fab fa-skype"></i></a>
+                </div>
+            </div>
+            <!-- About Us -->
+            <div>
+                <h4 class="text-white font-semibold mb-3">About Us</h4>
+                <ul class="space-y-2">
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Popular Campaign</a></li>
+                </ul>
+            </div>
+            <!-- Our Information -->
+            <div>
+                <h4 class="text-white font-semibold mb-3">Our Information</h4>
+                <ul class="space-y-2">
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Store Hours</a></li>
+                </ul>
+            </div>
+            <!-- My Account -->
+            <div>
+                <h4 class="text-white font-semibold mb-3">My Account</h4>
+                <ul class="space-y-2">
+                    <li><a href="#">Press Inquiries</a></li>
+                    <li><a href="#">Social Media Directories</a></li>
+                    <li><a href="#">Images & B-roll</a></li>
+                    <li><a href="#">Permissions</a></li>
+                    <li><a href="#">Speaker Requests</a></li>
+                </ul>
+            </div>
+            <!-- Policy -->
+            <div>
+                <h4 class="text-white font-semibold mb-3">Policy</h4>
+                <ul class="space-y-2">
+                    <li><a href="#">Application Security</a></li>
+                    <li><a href="#">Software Principles</a></li>
+                    <li><a href="#">Unwanted Software Policy</a></li>
+                    <li><a href="#">Responsible Supply Chain</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
